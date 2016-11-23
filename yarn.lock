@@ -1819,6 +1819,13 @@ postcss-discard-comments@^2.0.4:
   dependencies:
     postcss "^5.0.14"
 
+postcss-each@^0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/postcss-each/-/postcss-each-0.9.3.tgz#e50ee7c849aa4cb2363ed437cb1dff43e895d4f9"
+  dependencies:
+    postcss "^5.0.21"
+    postcss-simple-vars "^2.0.0"
+
 postcss-font-variant@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/postcss-font-variant/-/postcss-font-variant-2.0.1.tgz#7ca29103f59fa02ca3ace2ca22b2f756853d4ef8"
@@ -1909,6 +1916,12 @@ postcss-selector-parser@^2.2.0:
     flatten "^1.0.2"
     indexes-of "^1.0.1"
     uniq "^1.0.1"
+
+postcss-simple-vars@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-simple-vars/-/postcss-simple-vars-2.0.0.tgz#d0a1091b0da22b79507028f7b22b976c0a60b8d5"
+  dependencies:
+    postcss "^5.0.21"
 
 postcss-value-parser@^3.0.2, postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
   version "3.3.0"

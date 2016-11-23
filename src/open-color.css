@@ -1,7 +1,22 @@
 /*! open-color.css */
 @import "open-color/open-color.css";
 
-.bc-white{border-color: var(--oc-black)}
-.c-white{color: var(--oc-black)}
-.f-white{fill: var(--oc-black)}
-.gc-white{background-color: var(--oc-black)}
+.bc-white{border-color: var(--oc-white)}
+.c-white{color: var(--oc-white)}
+.f-white{fill: var(--oc-white)}
+.gc-white{background-color: var(--oc-white)}
+
+.bc-black{border-color: var(--oc-black)}
+.c-black{color: var(--oc-black)}
+.f-black{fill: var(--oc-black)}
+.gc-black{background-color: var(--oc-black)}
+
+
+@each $color in (gray, red, pink, grape, violet, indigo, blue, cyan, teal, green, lime, yellow, orange) {
+  @each $grade in (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) {
+    .bc-$(color)-$(grade){border-color: var(--oc-$(color)-$(grade))}
+    .c-$(color)-$(grade){color: var(--oc-$(color)-$(grade))}
+    .f-$(color)-$(grade){fill: var(--oc-$(color)-$(grade))}
+    .gc-$(color)-$(grade){background-color: var(--oc-$(color)-$(grade))}
+  }
+}

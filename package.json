@@ -5,7 +5,7 @@
   "main": "open-color.css",
   "style": "open-color.css",
   "scripts": {
-    "build": "postcss -u postcss-import -u postcss-cssnext -u postcss-discard-comments -o open-color.css src/open-color.css",
+    "build": "postcss -u postcss-import -u postcss-each -u postcss-cssnext -u postcss-discard-comments -o open-color.css src/open-color.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "postcss-cli": "^2.6.0",
     "postcss-cssnext": "^2.8.0",
     "postcss-discard-comments": "^2.0.4",
+    "postcss-each": "^0.9.3",
     "postcss-import": "^8.2.0"
   }
 }
