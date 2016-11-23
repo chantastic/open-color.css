@@ -1,8 +1,5 @@
 /*! open-color.css */
-:root {
-  --oc-white: #ffffff;
-  --oc-black: #000000;
-}
+@import "open-color/open-color.css";
 
 .bc-white{border-color: var(--oc-black)}
 .c-white{color: var(--oc-black)}
