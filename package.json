@@ -1,0 +1,25 @@
+{
+  "name": "open-color.css",
+  "version": "1.0.0",
+  "description": "open-color css selectors with minions.css naming conventions",
+  "main": "open-color.css",
+  "style": "open-color.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chantastic/open-color.css.git"
+  },
+  "keywords": [
+    "css",
+    "open-color",
+    "color"
+  ],
+  "author": "Michael Chan (chantastic)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantastic/open-color.css/issues"
+  },
+  "homepage": "https://github.com/chantastic/open-color.css#readme"
+}
