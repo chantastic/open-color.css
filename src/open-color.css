@@ -1,0 +1,10 @@
+/*! open-color.css */
+:root {
+  --oc-white: #ffffff;
+  --oc-black: #000000;
+}
+
+.bc-white{border-color: var(--oc-black)}
+.c-white{color: var(--oc-black)}
+.f-white{fill: var(--oc-black)}
+.gc-white{background-color: var(--oc-black)}

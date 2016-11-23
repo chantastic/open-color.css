@@ -5,6 +5,7 @@
   "main": "open-color.css",
   "style": "open-color.css",
   "scripts": {
+    "build": "postcss --use postcss-cssnext -o open-color.css src/open-color.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/chantastic/open-color.css/issues"
   },
-  "homepage": "https://github.com/chantastic/open-color.css#readme"
+  "homepage": "https://github.com/chantastic/open-color.css#readme",
+  "dependencies": {
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.8.0"
+  }
 }
